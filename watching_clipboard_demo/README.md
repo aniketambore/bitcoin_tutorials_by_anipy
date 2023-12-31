@@ -347,7 +347,7 @@ Click on "Continue" in the dialog, and the main screen will update accordingly:
 ## Homework and Conclusion
 Fantastic! Everything is in place. The only thing left is the setClipboardText method of ClipboardManager, and that is your homework. Try to implement it. Additionally, create a simple widget on the main screen displaying a hardcoded Bitcoin address and a copy button. Clicking on the copy button should copy the Bitcoin address to the clipboard. If the dialog is shown, your implementation is incorrect. If the dialog is not shown, everything is right.
 
-The homework solution will be available on the GitHub repo of this article [here](link to GitHub repo).
+The homework solution will be available on the GitHub repo of this article [here](https://github.com/aniketambore/bitcoin_tutorials_by_anipy/tree/main/watching_clipboard_demo).
 
 If you have questions or want to connect and share your experiences, feel free to reach out to me on Twitter, Nostr, or LinkedIn.
 

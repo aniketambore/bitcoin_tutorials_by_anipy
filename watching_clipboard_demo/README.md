@@ -4,12 +4,12 @@
 
 Hello, and welcome to this tutorial article! In this article, I'll guide you through the process of implementing clipboard monitoring in a Flutter app. You'll learn how to watch the device clipboard and take actions based on the clipboard data.
 
-<img src="https://i.ibb.co/T4v4j69/Clipboard-Monitoring-for-Bitcoin-Addresses-in-Flutter.gif" alt="Demo" width="500"/>
+<img src="https://i.ibb.co/T4v4j69/Clipboard-Monitoring-for-Bitcoin-Addresses-in-Flutter.gif" alt="Demo" width="400"/>
 
 ## Use Case
 Have you ever wondered how Bitcoin wallets detect copied addresses and prompt you when you open another wallet? We'll be implementing exactly that functionality in this article.
 
-<img src="https://i.ibb.co/6gvyBVH/blue-wallet-clipboard-dialog.jpg" alt="Clipboard Dialog" width="500"/>
+<img src="https://i.ibb.co/6gvyBVH/blue-wallet-clipboard-dialog.jpg" alt="Clipboard Dialog" width="400"/>
 
 This is what you'll learn to implement in this article.
 
@@ -291,7 +291,7 @@ In this code:
 
 Now, let's run the app and observe the simple screen with the Bitcoin icon in the center.
 
-<img src="https://i.ibb.co/z5D5N8F/Screenshot-1704017539.png" alt="Main Screen" width="500"/>
+<img src="https://i.ibb.co/z5D5N8F/Screenshot-1704017539.png" alt="Main Screen" width="400"/>
 
 ### Address Validation
 Now, let's implement the `isBitcoinAddress` method in `main.dart` by locating `// TODO: Implement isBitcoinAddress` and replace it with the following code:
@@ -338,11 +338,11 @@ Well, the purpose of `skip(1)` operator is used to skip the initial value emitte
 
 Great! With this, we're almost done. Now, run the app again. Copy a Bitcoin address from another app, then open the app. You will see the dialog as shown below:
 
-<img src="https://i.ibb.co/YPgVs6d/Screenshot-1704017829.png" alt="Clipboard Dialog" width="500"/>
+<img src="https://i.ibb.co/YPgVs6d/Screenshot-1704017829.png" alt="Clipboard Dialog" width="400"/>
 
 Click on "Continue" in the dialog, and the main screen will update accordingly:
 
-<img src="https://i.ibb.co/27TR4yC/Screenshot-1704017852.png" alt="Main Screen Updated" width="500"/>
+<img src="https://i.ibb.co/27TR4yC/Screenshot-1704017852.png" alt="Main Screen Updated" width="400"/>
 
 ## Homework and Conclusion
 Fantastic! Everything is in place. The only thing left is the setClipboardText method of ClipboardManager, and that is your homework. Try to implement it. Additionally, create a simple widget on the main screen displaying a hardcoded Bitcoin address and a copy button. Clicking on the copy button should copy the Bitcoin address to the clipboard. If the dialog is shown, your implementation is incorrect. If the dialog is not shown, everything is right.

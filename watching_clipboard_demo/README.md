@@ -342,7 +342,7 @@ Great! With this, we're almost done. Now, run the app again. Copy a Bitcoin addr
 
 Click on "Continue" in the dialog, and the main screen will update accordingly:
 
-<img src="https://i.ibb.co/27TR4yC/Screenshot-1704017852.png" alt="Main Screen Updated" width="400"/>
+<img src="https://i.ibb.co/2dbZVX1/watching-clipboard-demo.gif" alt="Main Screen Updated" width="400"/>
 
 ## Homework and Conclusion
 Fantastic! Everything is in place. The only thing left is the setClipboardText method of ClipboardManager, and that is your homework. Try to implement it. Additionally, create a simple widget on the main screen displaying a hardcoded Bitcoin address and a copy button. Clicking on the copy button should copy the Bitcoin address to the clipboard. If the dialog is shown, your implementation is incorrect. If the dialog is not shown, everything is right.
